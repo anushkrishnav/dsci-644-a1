@@ -1,8 +1,8 @@
-# Assignment #1 - Data Engineering Journey Begins
+# Assignment #1 - The Journey Begins
 
 ## Getting Started
 
-Welcome to Assignment #1, where you will begin your journey into the world of data engineering. This series of READMEs will guide you through setting up the fundamental tools and services necessary for your assignments.
+Welcome to Assignment #1, where you will begin your journey into the world of data collection. This series of markdowns will guide you through setting up the fundamental tools and services necessary for your assignments.
 
 In this assignment, we will focus on mastering the following technologies:
 
