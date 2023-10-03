@@ -13,7 +13,7 @@ services:
   postgres:
     image: postgres:13.0-alpine
     environment:
-      POSTGRES_DB: mydb
+      POSTGRES_DB: dsci644db
       POSTGRES_USER: myuser
       POSTGRES_PASSWORD: mypassword
     ports:
@@ -77,4 +77,67 @@ volumes:
 
 With this Docker Compose file, you can effortlessly spin up these services by running `docker-compose up`. It's containerization made simple!
 
+# Running the Docker Compose File 🐳
+
+To run the Docker Compose file located in the `Tasks/Task_3/` directory, follow these steps:
+
+1. **Navigate to the Directory:** Open your terminal or command prompt.
+
+2. **Change Directory:** Use the `cd` command to navigate to the location where the Docker Compose file is stored. In this case, it's the `Tasks/Task_3/` directory. Here's an example for a Linux/Mac system:
+   
+   ```bash
+   cd path/to/Tasks/Task_3/
+   ```
+
+  For Windows, use the following command:
+
+  ```bash
+  cd path\to\Tasks\Task_3\
+  ```
+3. **Run Docker Compose**: Once you are in the correct directory, execute the following command to run the Docker Compose file:
+
+   ```bash
+   docker-compose up
+   ```
+
+   This command will spin up the PostgreSQL, Redis, and pgAdmin services. You can access the services at the following URLs:
+
+   - **PostgreSQL:** `localhost:5432`
+   - **Redis:** `localhost:6379`
+   - **pgAdmin:** `localhost:80`
+
+   You can also run the Docker Compose file in detached mode by using the `-d` flag:
+
+   ```bash
+   docker-compose up -d
+   ```
+
+   This command will run the Docker Compose file in the background, allowing you to continue using your terminal.
+
+ 
+4. pgAdmin web interface: To access the pgAdmin web interface, go to `localhost:80` in your browser. You can log in with the following credentials:
+
+   - **Email:** admin@example.com
+    - **Password:** admin
+
+    Once you log in, you can add a new server by clicking on the "Add New Server" button. Then, enter the following details:
+
+    - **Name:** dsci644db
+    - **Host name/address:** postgres
+    - **Port:** 5432
+    - **Username:** username
+    - **Password:** mypassword
+
+    Click on "Save" to save the server. You can now access the PostgreSQL server from the pgAdmin web interface.
+
+5. **Stop Docker Compose:** To stop the Docker Compose file, use the following command:
+
+   ```bash
+    docker-compose down
+    ```
+
+    This command will stop the Docker Compose file and remove the containers, networks, volumes, and images created by the `docker-compose up` command.
+
+
 Time to set sail and start orchestrating your containers with Docker Compose. Happy containerizing! 🐳🎉
+

@@ -2,7 +2,7 @@
 
 In this task, you will gain insights into Kaggle, Kaggle datasets, and GitHub's GraphQL API, all of which are essential for data extraction and automation in our course. We'll walk you through the steps for both Kaggle and GitHub.
 
-🔗 **Click through the demo** to familiarize yourself with the steps required: [Task 1 Demo](https://app.supademo.com/embed/7EtskutdCC93mvxG_ZEdV)
+<!-- 🔗 **Click through the demo** to familiarize yourself with the steps required: [Task 1 Demo](https://app.supademo.com/embed/7EtskutdCC93mvxG_ZEdV) -->
 
 ## Part 1: Kaggle
 
@@ -25,21 +25,16 @@ Source: [Kaggle Datasets](https://www.kaggle.com/docs/datasets)
 2. Click on your profile picture in the upper right corner and select "Account."
 3. Scroll down to the "Settings" section.
 4. Click on "Create API Token." This action will download a file named `kaggle.json` to your computer.
+5. Move the `kaggle.json` file from your Downloads folder to Task_1 folder.
+6. Add this file to your `.gitignore` file. Remember, you should never commit API keys to GitHub.
 
-### Step 3: Use the Kaggle API Key in Colab
-
-1. Copy the provided Colab file.
-2. Upload the `kaggle.json` file to your Colab environment.
-3. Use the Kaggle API key in your Colab notebook to access Kaggle datasets and competitions.
-
-### Step 4: Obtain the `repo_list` Dataset
-
+### Step 3: Obtain the Kaggle repo_list Dataset
 1. Follow the instructions in the Colab file to obtain the `repo_list` dataset.
 2. Upload the extracted CSV to MyCourses.
 
 ## Part 2: GitHub's GraphQL API
 
-🔗 **Click through the demo** to learn more about GitHub's GraphQL API: [GitHub's GraphQL API Demo](https://app.supademo.com/embed/Suz5pnDrt_pFS81gg5vM4)
+<!-- 🔗 **Click through the demo** to learn more about GitHub's GraphQL API: [GitHub's GraphQL API Demo](https://app.supademo.com/embed/Suz5pnDrt_pFS81gg5vM4) -->
 
 ### Step 1: Create a GitHub Account
 
@@ -62,6 +57,13 @@ Source: [Kaggle Datasets](https://www.kaggle.com/docs/datasets)
 
 🎉 Congratulations! You've successfully completed Task 1.
 
+### Additional Resources to learn about graphQL and GitHub's GraphQL API
+
+- [GraphQL](https://graphql.org/)
+- [GitHub GraphQL API](https://docs.github.com/en/graphql)
+- [Github GraphQL API Explorer](https://docs.github.com/en/graphql/overview/explorer)
+- [GraphQL vs REST](https://www.apollographql.com/blog/graphql-vs-rest-5d425123e34b/)
+
 
 
 [![task-button]][Shield]
@@ -69,9 +71,4 @@ Source: [Kaggle Datasets](https://www.kaggle.com/docs/datasets)
 
 [task-button]: https://img.shields.io/badge/Let's_jump_to_task_2-F76902?style=for-the-badge
 
-[License]: LICENSE
-[Shield]: Tasks/task_2_.md
-[KBD]: Types/KBD.md
-[#]: #
-
-<!---------------------------------[ Badges ]---------------------------------->
+[Shield]: ../Task_2/task_2.md

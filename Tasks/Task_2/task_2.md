@@ -12,9 +12,9 @@ Docker Desktop offers a sleek and user-friendly Graphical User Interface (GUI) t
 
 ### Mac 🍏
 
-For Mac users, we have a handy video walkthrough demonstrating the installation process. Watch the video [here](https://www.example.com/docker-mac-install-video).
+<!-- For Mac users, we have a handy video walkthrough demonstrating the installation process. Watch the video [here](https://www.example.com/docker-mac-install-video). -->
 
-Prefer step-by-step instructions? Check out the official Docker Desktop installation guide for Mac:
+Check out the official Docker Desktop installation guide for Mac:
 - Permission Requirements: [Learn more](https://docs.docker.com/desktop/mac/permission-requirements/)
 - Installation Guide: [Get started](https://docs.docker.com/desktop/install/mac-install/)
 
@@ -36,3 +36,9 @@ Linux enthusiasts, here's how to get Docker Desktop up and running on your syste
 Before you embark on your containerization journey, don't forget to create a Docker account. This account will be your key to accessing Docker Hub, the world's largest repository of container images. Sign up [here](https://hub.docker.com/signup).
 
 Now, you're all set to dive into the world of containers with Docker Desktop! Enjoy your containerized adventures! 🐳🚀
+
+[![task-button]][Shield]
+
+[task-button]: https://img.shields.io/badge/Let's_jump_to_task_3-F76902?style=for-the-badge
+
+[Shield]: ../Task_3/task_3.md

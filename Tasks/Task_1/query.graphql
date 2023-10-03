@@ -1,0 +1,35 @@
+query ($counter: Int!, $owner: String!, $repo: String!, $issuecursor: String, $commcursor: String) {
+  repository(owner: $owner, name: $repo) {
+    id
+    issues(first: $counter, after: $issuecursor) {
+      totalCount
+      pageInfo {
+        hasNextPage
+        startCursor
+        endCursor
+      }
+      edges {
+        node {
+          id
+          body
+          title
+          state
+          number
+          comments(first: $counter, after: $commcursor) {
+            pageInfo {
+              endCursor
+              hasNextPage
+            }
+            edges {
+              node {
+                body
+                id
+              }
+            }
+            totalCount
+          }
+        }
+      }
+    }
+  }
+}
