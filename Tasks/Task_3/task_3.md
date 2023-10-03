@@ -139,5 +139,14 @@ To run the Docker Compose file located in the `Tasks/Task_3/` directory, follow 
     This command will stop the Docker Compose file and remove the containers, networks, volumes, and images created by the `docker-compose up` command.
 
 
-Time to set sail and start orchestrating your containers with Docker Compose. Happy containerizing! 🐳🎉
+Make sure to upload a screenshot of the terminal output to MyCourses. 📸
 
+With this, you have completed Task 3 and all the tasks in Assignment 1 . Congratulations! 🎉
+
+Moving forward we will be working with the tools and services we have set up in this assignment to automate the data collection process. 🚀
+
+Remember to 
+- Stop to all the containers you have started.
+- Remove all tokens and keys from your submission.
+- Push your changes to GitHub.
+- Submit your assignment on MyCourses.

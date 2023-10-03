@@ -1,6 +1,6 @@
 # Task 1: Introduction to Kaggle, Kaggle Dataset, and GitHub's GraphQL API
 
-In this task, you will gain insights into Kaggle, Kaggle datasets, and GitHub's GraphQL API, all of which are essential for data extraction and automation in our course. We'll walk you through the steps for both Kaggle and GitHub.
+In this task, you will gain insights into Kaggle, Kaggle datasets, and GitHub's GraphQL API, all of which are essential for our data extraction. This task will also help you obtain your GitHub token, an essential key for future data-related tasks.
 
 <!-- 🔗 **Click through the demo** to familiarize yourself with the steps required: [Task 1 Demo](https://app.supademo.com/embed/7EtskutdCC93mvxG_ZEdV) -->
 
@@ -48,14 +48,22 @@ Source: [Kaggle Datasets](https://www.kaggle.com/docs/datasets)
 3. Navigate to the Developer Settings.
 4. Generate a fine-grained API token.
 5. Keep this token secure.
+6. Its recommended to store and use this token from a `.env` file. Remember, you should never commit API keys to GitHub.
 
 ### Step 3: Use the GitHub API Token
 
 1. Use the GitHub API token to call the GitHub GraphQL server.
 2. The GraphQL query file required to obtain the data will be provided.
-3. Starter code on Kaggle will be provided as well.
+3. Check the `Task_1` folder for the GraphQL query file.
 
-🎉 Congratulations! You've successfully completed Task 1.
+### Step 4: Obtain the GitHub repo_list and the subsequent Issues data from the GraphQL API
+1. Open the [Python Notebook](/Tasks/Task_1/task_1.ipynb) to proceed with the task. 
+2. Follow the instructions in the notebook to obtain the `repo_list` and the subsequent `Issues` data from the GraphQL API.
+3. Upload the extracted CSV and JSON files to MyCourses.
+
+If you are new to GraphQL, you can learn more about it [here](https://graphql.org/).
+
+🎉 If you have completed all the steps, Congratulations! You have successfully completed Task 1. 🎉
 
 ### Additional Resources to learn about graphQL and GitHub's GraphQL API
 

@@ -30,7 +30,7 @@ The primary objective of this assignment is to:
 - Install and configure the specified tools.
 - Obtain your GitHub token, an essential key for future data-related tasks.
 
-Please follow the instructions carefully, as this assignment lays the foundation for the course.
+Please follow the instructions carefully, as this assignment lays the foundation for upcoming assignments.
 
 ### Let's get started!
 

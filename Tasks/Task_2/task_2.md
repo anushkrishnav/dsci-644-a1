@@ -2,8 +2,6 @@
 
 Welcome to the world of containerization! Docker Desktop is your all-in-one solution for effortlessly building, sharing, and running containerized applications and microservices on your Mac, Linux, or Windows environment. 🚀
 
-![Docker Desktop](https://www.example.com/docker-desktop-screenshot.png)
-
 ## Why Docker Desktop?
 
 Docker Desktop offers a sleek and user-friendly Graphical User Interface (GUI) that empowers you to manage containers, applications, and images with ease. Whether you're a seasoned developer or just starting your containerization journey, Docker Desktop has you covered. 🎉
