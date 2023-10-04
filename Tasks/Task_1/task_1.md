@@ -1,6 +1,6 @@
 # Task 1: Introduction to Kaggle, Kaggle Dataset, and GitHub's GraphQL API
 
-In this task, you will gain insights into Kaggle, Kaggle datasets, and GitHub's GraphQL API, all of which are essential for our data extraction. This task will also help you obtain your GitHub token, an essential key for future data-related tasks.
+In this task, you will gain insights into Kaggle, Kaggle datasets, and GitHub's GraphQL API, all of which are essential for our data extraction. This task will also help you obtain your kaggle and GitHub token.
 
 <!-- 🔗 **Click through the demo** to familiarize yourself with the steps required: [Task 1 Demo](https://app.supademo.com/embed/7EtskutdCC93mvxG_ZEdV) -->
 
@@ -29,7 +29,7 @@ Source: [Kaggle Datasets](https://www.kaggle.com/docs/datasets)
 6. Add this file to your `.gitignore` file. Remember, you should never commit API keys to GitHub.
 
 ### Step 3: Obtain the Kaggle repo_list Dataset
-1. Follow the instructions in the Colab file to obtain the `repo_list` dataset.
+1. Follow the instructions in the [Python Notebook](/Tasks/Task_1/task_1.ipynb)] to obtain the `repo_list` dataset.
 2. Upload the extracted CSV to MyCourses.
 
 ## Part 2: GitHub's GraphQL API
@@ -59,7 +59,7 @@ Source: [Kaggle Datasets](https://www.kaggle.com/docs/datasets)
 ### Step 4: Obtain the GitHub repo_list and the subsequent Issues data from the GraphQL API
 1. Open the [Python Notebook](/Tasks/Task_1/task_1.ipynb) to proceed with the task. 
 2. Follow the instructions in the notebook to obtain the `repo_list` and the subsequent `Issues` data from the GraphQL API.
-3. Upload the extracted CSV and JSON files to MyCourses.
+3. Upload the extracted JSON files to MyCourses.
 
 If you are new to GraphQL, you can learn more about it [here](https://graphql.org/).
 
