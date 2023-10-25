@@ -28,9 +28,15 @@ Source: [Kaggle Datasets](https://www.kaggle.com/docs/datasets)
 5. Move the `kaggle.json` file from your Downloads folder to Task_1 folder.
 6. Add this file to your `.gitignore` file. Remember, you should never commit API keys to GitHub.
 
+
 ### Step 3: Obtain the Kaggle repo_list Dataset
 1. Follow the instructions in the [Python Notebook](/Tasks/Task_1/task_1.ipynb)] to obtain the `repo_list` dataset.
 2. Upload the extracted CSV to MyCourses.
+   
+   **Note**:
+   - In this step, we set environment variables like `os.environ['KAGGLE_USERNAME']` to store your Kaggle username, and `os.environ['KAGGLE_KEY']` to store your Kaggle API key. The Kaggle API key is used to authenticate your requests to Kaggle. The `KaggleApi` object is used to download files, and you can specify the path where you want to store the zipped list of repositories by changing the `path` parameter in the `api.dataset_download_files()` function. 
+   **Note**: You can split the code into two sections: one for downloading and saving the Kaggle dataset and another for the GitHub part. Alternatively, continue with the notebook after generating the GitHub API token.
+
 
 ## Part 2: GitHub's GraphQL API
 
