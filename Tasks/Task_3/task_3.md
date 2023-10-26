@@ -106,6 +106,8 @@ To run the Docker Compose file located in the `Tasks/Task_3/` directory, follow 
    - **Redis:** `localhost:6379`
    - **pgAdmin:** `localhost:80`
 
+> **Note:** Opening localhost 5432 or 6379 should not give any resource,  opening a URL like http://localhost:5432 in a web browser, you're attempting to access a web service via the HTTP protocol. By default, PostgreSQL doesn't provide a web interface accessible via a web browser on port 5432. Port 5432 is the default port used for PostgreSQL database connections, not for web-based interactions.
+
    You can also run the Docker Compose file in detached mode by using the `-d` flag:
 
    ```bash
@@ -114,7 +116,10 @@ To run the Docker Compose file located in the `Tasks/Task_3/` directory, follow 
 
    This command will run the Docker Compose file in the background, allowing you to continue using your terminal.
 
- 
+
+After Docker Compose up you have to go to the pgAdmin web interface and connect to the PostgreSQL server. You can do this by following these steps:
+
+
 4. pgAdmin web interface: To access the pgAdmin web interface, go to `localhost:80` in your browser. You can log in with the following credentials:
 
    - **Email:** admin@example.com
@@ -129,6 +134,9 @@ To run the Docker Compose file located in the `Tasks/Task_3/` directory, follow 
     - **Password:** mypassword
 
     Click on "Save" to save the server. You can now access the PostgreSQL server from the pgAdmin web interface.
+  
+  Refer this guide for a step-by-step walkthrough of the process: [How to run PostgreSQL and Pgadmin using docker](https://www.commandprompt.com/education/how-to-run-postgresql-and-pgadmin-using-docker/).
+
 
 5. **Stop Docker Compose:** To stop the Docker Compose file, use the following command:
 

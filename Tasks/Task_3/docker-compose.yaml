@@ -8,6 +8,7 @@ services:
       POSTGRES_USER: username
       POSTGRES_PASSWORD: password
     ports:
+    # Note if you try to open localhost:5432 on your browser, it will not work refer Task_3.md for more details
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
@@ -27,7 +28,6 @@ services:
     depends_on:
       - postgres
 
-Volumes:
+volumes:
   postgres_data:
-    external: 
       name: postgres_data

@@ -6,6 +6,11 @@ Welcome to the world of containerization! Docker Desktop is your all-in-one solu
 
 Docker Desktop offers a sleek and user-friendly Graphical User Interface (GUI) that empowers you to manage containers, applications, and images with ease. Whether you're a seasoned developer or just starting your containerization journey, Docker Desktop has you covered. 🎉
 
+## Additional Resources 📚
+- Check this [blog post](https://www.baeldung.com/ops/docker-compose) to learn more about Docker Compose, a tool for defining and running multi-container Docker applications.
+- If you like to learn by watching videos, check out this [YouTube veideo](https://www.youtube.com/watch?v=HG6yIjZapSA)
+
+
 ## Installation Guides 📚
 
 ### Mac 🍏
