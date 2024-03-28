@@ -14,8 +14,8 @@ services:
     image: postgres:13.0-alpine
     environment:
       POSTGRES_DB: dsci644db
-      POSTGRES_USER: myuser
-      POSTGRES_PASSWORD: mypassword
+      POSTGRES_USER: username
+      POSTGRES_PASSWORD: password
     ports:
       - "5432:5432"
     volumes:
@@ -131,7 +131,7 @@ After Docker Compose up you have to go to the pgAdmin web interface and connect 
     - **Host name/address:** postgres
     - **Port:** 5432
     - **Username:** username
-    - **Password:** mypassword
+    - **Password:** password
 
     Click on "Save" to save the server. You can now access the PostgreSQL server from the pgAdmin web interface.
   
